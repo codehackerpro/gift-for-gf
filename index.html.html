@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Special Journey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="story-container">
+        <div id="chapter1" class="chapter">
+            <h1>Welcome to Your Special Journey</h1>
+            <p>This journey is just for you. Click below to start!</p>
+            <button onclick="nextChapter(2)">Start</button>
+        </div>
+        
+        <div id="chapter2" class="chapter hidden">
+            <h2>Chapter 1: A New Beginning</h2>
+            <p>Every story has a beginning, just like ours. What do you think happens next?</p>
+            <button onclick="nextChapter(3)">Find Out</button>
+        </div>
+        
+        <div id="chapter3" class="chapter hidden">
+            <h2>Chapter 2: The Adventure</h2>
+            <p>The journey takes an unexpected turn, but it's full of excitement. Click to see where it leads.</p>
+            <button onclick="nextChapter(4)">Continue</button>
+        </div>
+        
+        <div id="chapter4" class="chapter hidden">
+            <h2>The End: A Special Message</h2>
+            <p>All stories lead to a destination. Here’s what I want to say: You are the most amazing person, and I feel so lucky to know you.</p>
+            <p>I hope this little journey made you smile. 😊</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
